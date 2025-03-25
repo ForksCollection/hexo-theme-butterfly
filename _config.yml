@@ -291,7 +291,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 写点代码操控星星的轨迹 ✧⁺⸜(●˙▾˙●)⸝⁺✧
     button:
       enable: true
       icon: fab fa-bilibili
@@ -308,7 +308,7 @@ aside:
     sort: date
     sort_order:
   card_newest_comments:
-    enable: false
+    enable: true
     sort_order:
     limit: 6
     # Unit: mins, save data to localStorage
