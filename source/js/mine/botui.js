@@ -5198,7 +5198,7 @@ function bot_ui_ini() {
     var end = function () {
         botui.message.add({
             delay: 600,
-            content: "![...](https://img.catrol.cn/bqb/你酱紫很容易挨揍的.jpeg)",
+            content: "![...](https://img.migrating.dynesshely.top/bqb/你酱紫很容易挨揍的.jpeg)",
         }).then(function () {
             botui.action
                 .button({
@@ -5220,14 +5220,14 @@ function bot_ui_ini() {
     var secondpart = function () {
         botui.message.add({
             delay: 2000,
-            content: "我今年 18 岁了！ (划掉) 19 了",
+            content: "我今年 18 岁了！ (划掉) 20 了",
         }).then(function () {
             botui.message
                 .add({ delay: 1500, content: "我现在就读于贵州贵阳市观山湖区第一高级中学, 上高三 (划掉)" })
                 .then(function () {
                     botui.message.add({
                         delay: 200,
-                        content: "24 年高考, 现就读于天津外国语大学"
+                        content: "24 年高考, 现就读于天津外国语大学，系大二本科生"
                     }).then(function () {
                         botui.message
                             .add({
@@ -5238,7 +5238,7 @@ function bot_ui_ini() {
                                 botui.message
                                     .add({
                                         delay: 1500,
-                                        content: "我非常喜欢编程, 打游戏, 游泳, 弹钢琴, 以及上学 (不是我说的), 还有做作业 (最喜欢了)",
+                                        content: "我非常喜欢编程, 打游戏, 游泳, 弹钢琴, 以及上学 (不是我说的)",
                                     })
                                     .then(function () {
                                         botui.message
@@ -5247,7 +5247,7 @@ function bot_ui_ini() {
                                                 botui.message
                                                     .add({
                                                         delay: 1500,
-                                                        content: "喜欢 C#, Python, C&C++, Rust, Win/Linux/Mac 混用党, 讨厌 Java",
+                                                        content: "喜欢 C#, Python, C&C++, Rust, Win/Linux/Mac 混用党, 讨厌 Java（但不得不用）",
                                                     })
                                                     .then(function () {
                                                         botui.message

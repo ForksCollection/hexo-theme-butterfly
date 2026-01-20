@@ -54,27 +54,27 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fas fa-rss: https://blog.catrol.cn/atom.xml || RSS
+  fas fa-rss: https://blog.dynesshely.top/atom.xml || RSS
   fab fa-github: https://github.com/Dynesshely || Github
-  fas fa-envelope: mailto:catrol@qq.com || Email
+  fas fa-envelope: mailto:dynesshely.blog@catrol.email || Email
   fab fa-gitlab: https://gitlab.com/Dynesshely || Gitlab
-  fab fa-qq: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2369913161&website=www.oicqzone.com || QQ
+  fab fa-qq: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=385998921&website=www.oicqzone.com || QQ
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: "https://img.catrol.cn/icons/org/crequency/animation.gif"
+favicon: "https://img.migrating.dynesshely.top/icons/org/crequency/animation.gif"
 
 avatar:
-  img: "https://img.catrol.cn/avatar/avatar-head-only.png"
+  img: "https://img.migrating.dynesshely.top/avatar/avatar-head-only.png"
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: "https://img.catrol.cn/toper/moutain_1080p.jpg"
+default_top_img: "https://img.migrating.dynesshely.top/toper/moutain_1080p.jpg"
 
 # The banner image of index page
 index_img:
@@ -103,7 +103,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background: https://img.catrol.cn/toper/mycau.jpg
+background: https://img.migrating.dynesshely.top/toper/mycau.jpg
 
 cover:
   # Disable the cover or not
@@ -212,7 +212,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://blog.catrol.cn
+  author_href: https://blog.dynesshely.top
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -221,10 +221,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: https://img.catrol.cn/pay/wechat.jpg
+    - img: https://img.migrating.dynesshely.top/pay/wechat.jpg
       link:
       text: 微信
-    - img: https://img.catrol.cn/pay/alipay.jpg
+    - img: https://img.migrating.dynesshely.top/pay/alipay.jpg
       link:
       text: 支付宝
 
@@ -269,7 +269,20 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 欢迎访问 Dynesshely 的 博客<br>备案号:&emsp;<img src="https://img.catrol.cn/icons/public/icp.png"></img>&emsp;<a href="https://beian.miit.gov.cn/">黔 ICP 备 2021001447 号</a><p/>
+  custom_text: |
+    <div>
+      云计算资源由 <a href="https://www.nimatattic.cn" target="_blank">云矩数阁网络科技（贵州省）有限责任公司</a> 与 <a href="https://www.crequency.com" target="_blank">Crequency Open Source Organization</a> 联合提供支持
+      <div style="vertical-align: middle;">
+        <img src="https://img.migrating.dynesshely.top/icons/public/miit-icp-filing.png" style="width:20px; height:20px; vertical-align:middle;"></img>
+        &nbsp;&nbsp;
+        <a href="https://beian.miit.gov.cn/">黔 ICP 备 2025057084 号 - 7</a>
+        &emsp;
+        <img src="https://img.migrating.dynesshely.top/icons/public/public-security-filing.png" style="width:20px; height:20px; vertical-align:middle;"></img>
+        &nbsp;&nbsp;
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=1101010200XXXX">公网安备 1101080202XXXX 号</a>
+      </div>
+      <div style="margin-bottom: 1.6rem;"></div>
+    </div>
   # Copyright of theme and framework
   copyright: true
 
@@ -587,14 +600,14 @@ valine:
 # Waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: blog-comment-server.catrol.cn
+  serverURL: comment.blog.dynesshely.top
   bg:
   # Use Waline pageview count as the page view count
   pageview: false
   option:
     requiredMeta: [nick, mail] # 选定昵称和评论为必填项
     locale:
-      placeholder: 昵称和邮箱为必填项，为了您能及时收到相关回复的邮件通知，请确保邮箱的正确性！ # 内容区提示
+      placeholder: 昵称和邮箱为必填项，为了您能及时收到相关回复的邮件通知，请确保邮箱的正确性！<br>您的内容会先经过审核，通过后才会显示。 # 内容区提示
 
 # Utterances
 # https://utteranc.es/
@@ -1069,7 +1082,7 @@ inject:
     - <script src="/js/mine/uri.pro.js"></script>
   bottom:
     - <div class="aplayer no-destroy" data-id="6965804077" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
-    - <div id="dynesshely-blog-grayscale"><script src="https://source.catrol.cn/lib/public/grayscale4homepage.js"></script></div>
+    - <div id="dynesshely-blog-grayscale"><script src="https://source.migrating.dynesshely.top/lib/public/grayscale4homepage.js"></script></div>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
